@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     int n;
+    cout<<"enter the number :"<<endl;
     cin>>n;
     bool isprime=true;
     for(int i=2;i*i<=(n-1);i++){
@@ -11,7 +12,7 @@ int main(){
         }
     }
     if(isprime==false){
-            cout<<"non prime no<<endl\n";
+            cout<<"non prime \n";
         }
     else{
             cout<<"prime no\n";
